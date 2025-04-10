@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 public class EjDoWhile {
 
     //atributo de clase
-    public static Logger log =
+    public static final Logger log =
             Logger.getLogger(EjDoWhile.class.getName());
                             //nombreDeMiClase.class.getName()
 
