@@ -1,13 +1,12 @@
 package bucles;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class Ejercicio2 {
+public class Lab01_IngresarUsuario {
 
     public static final Logger LOG
-            = Logger.getLogger(Ejercicio2.class.getName());
+            = Logger.getLogger(Lab01_IngresarUsuario.class.getName());
 
     public static void main(String[] args) {
 
@@ -24,9 +23,9 @@ public class Ejercicio2 {
 
         while (intentos < 3 && !accesoConsedido){
 
-            System.out.printf("Ingrese el usuario: ");
+            System.out.println("Ingrese el usuario: ");
             String usuario = sc.nextLine();
-            System.out.printf("Ingrese la contraseña: ");
+            System.out.println("Ingrese la contraseña: ");
             String contraseña = sc.nextLine();
 
             if (usuario.equals(usuarioCorrecto) && contraseña.equals(contraseñaCorrecta)){
@@ -44,4 +43,6 @@ public class Ejercicio2 {
 
 
     }
+
+
 }

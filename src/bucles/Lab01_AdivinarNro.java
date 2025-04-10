@@ -3,10 +3,10 @@ package bucles;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class Ejercicio1 {
+public class Lab01_AdivinarNro {
 
     public static final Logger LOG =
-            Logger.getLogger(Ejercicio1.class.getName());
+            Logger.getLogger(Lab01_AdivinarNro.class.getName());
 
     public static void main(String[] args) {
 
@@ -30,4 +30,6 @@ public class Ejercicio1 {
         LOG.info("¡Adivinaste el número! El número correcto era: " + nroRandom);
 
     }
+
+
 }
